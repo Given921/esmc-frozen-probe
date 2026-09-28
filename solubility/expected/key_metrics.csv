@@ -1,0 +1,21 @@
+line,enc,config,metric,expected,tol,note
+solubility,esmc300m,length_ridge,spearman,0.39281554984152467,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc600m,length_ridge,spearman,0.39281554984152467,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc6b,length_ridge,spearman,0.39281554984152467,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc300m,aac_ridge,spearman,0.5181224380853531,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc600m,aac_ridge,spearman,0.5181224380853531,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc6b,aac_ridge,spearman,0.5181224380853531,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc300m,aac_rf,spearman,0.642475999859509,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc600m,aac_rf,spearman,0.642475999859509,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc6b,aac_rf,spearman,0.642475999859509,0.0,与编码器无关：三档必须逐位相同
+solubility,esmc300m,esmc_ridge,spearman,0.6743486668383384,0.002,尺子（线性探针）
+solubility,esmc600m,esmc_ridge,spearman,0.6828852808418906,0.002,尺子（线性探针）
+solubility,esmc6b,esmc_ridge,spearman,0.7127417695275652,0.002,尺子（线性探针）
+solubility,esmc300m,mlp_hand,spearman,0.6615230470192933,0.008,训练得到的头
+solubility,esmc600m,mlp_hand,spearman,0.7026094445058869,0.008,训练得到的头
+solubility,esmc6b,mlp_hand,spearman,0.7147658068794692,0.008,训练得到的头
+solubility,esmc300m,mlp_only,spearman,0.6319007101502296,0.008,训练得到的头
+solubility,esmc600m,mlp_only,spearman,0.6986473483020184,0.008,训练得到的头
+solubility,esmc6b,mlp_only,spearman,0.7073325020630427,0.008,训练得到的头
+solubility,-,leak_homology_test,ge25_pct,0.0,0.0,test 中与 train ≥25% 同一性的比例（⛔ 卡点，必须≈0）
+solubility,-,leak_random_test,ge25_pct,31.01,0.0,test 中与 train ≥25% 同一性的比例（泄漏对照）

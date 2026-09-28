@@ -1,0 +1,11 @@
+# 统一换行符：不加这个，Windows 上 `git add` 时每个文件都会刷
+# "LF will be replaced by CRLF" 警告（几十行噪音），跨平台协作时还会全文件 diff。
+* text=auto eol=lf
+
+# 二进制文件不参与换行转换
+*.png  binary
+*.jpg  binary
+*.parquet   binary
+*.safetensors binary
+*.pth  binary
+*.ckpt binary

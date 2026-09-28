@@ -1,0 +1,24 @@
+# ---- 本地配置（含个人路径，绝不提交）----
+tools/config.env
+
+# ---- 数据与权重：见 DATA.md（许可 + 体积原因，不进仓库）----
+data/
+features/
+runs/
+logs/
+assembled/
+_server_results*/
+_server_summary/
+*.parquet
+*.safetensors
+*.pth
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 中间产物 ----
+tmp/
+*.log

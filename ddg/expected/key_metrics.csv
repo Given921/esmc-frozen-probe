@@ -1,0 +1,19 @@
+line,enc,config,metric,expected,tol,note
+ddg,esmc300m,D_hand,spearman,0.471,0.0,与编码器无关（仅手工特征）：三档必须逐位相同
+ddg,esmc600m,D_hand,spearman,0.471,0.0,与编码器无关（仅手工特征）：三档必须逐位相同
+ddg,esmc6b,D_hand,spearman,0.471,0.0,与编码器无关（仅手工特征）：三档必须逐位相同
+ddg,esmc300m,B_hwt,spearman,0.4865,0.008,训练得到的头
+ddg,esmc600m,B_hwt,spearman,0.4601,0.008,训练得到的头
+ddg,esmc6b,B_hwt,spearman,0.4817,0.008,训练得到的头
+ddg,esmc300m,C_hmut,spearman,0.5013,0.008,训练得到的头
+ddg,esmc600m,C_hmut,spearman,0.5206,0.008,训练得到的头
+ddg,esmc6b,C_hmut,spearman,0.5813,0.008,训练得到的头
+ddg,esmc300m,A_hwt_hmut,spearman,0.6305,0.008,训练得到的头
+ddg,esmc600m,A_hwt_hmut,spearman,0.6487,0.008,训练得到的头
+ddg,esmc6b,A_hwt_hmut,spearman,0.6803,0.008,训练得到的头
+ddg,esmc300m,A_minus_B,delta,0.144,0.008,★ 核心交付 = h_mut 的增量
+ddg,esmc300m,A_minus_B,p,0.0,0.05,配对检验 p 值（两边都应显著）
+ddg,esmc600m,A_minus_B,delta,0.1886,0.008,★ 核心交付 = h_mut 的增量
+ddg,esmc600m,A_minus_B,p,0.0,0.05,配对检验 p 值（两边都应显著）
+ddg,esmc6b,A_minus_B,delta,0.1986,0.008,★ 核心交付 = h_mut 的增量
+ddg,esmc6b,A_minus_B,p,0.0,0.05,配对检验 p 值（两边都应显著）
