@@ -2,25 +2,6 @@ MIT License
 
 Copyright (c) 2026 esmc-frozen-probe contributors
 
----
-
-⚠️ 重要说明：本许可**只覆盖本仓库的代码**。
-
-本仓库引用的数据集与模型权重**各有其原许可**，不受本许可影响：
-
-| 对象 | 原许可 |
-|---|---|
-| eSOL 溶解度数据 | CC BY-SA 2.1 Japan（**传染性**，需署名 + 相同方式共享） |
-| UniProt 序列 | CC BY 4.0 |
-| MegaScale（ΔΔG 数据） | CC BY 4.0（需署名） |
-| ProStab 派生文件 | **仓库未声明许可**（默认保留所有权利） |
-| ESMC 模型权重 | 以 HuggingFace 页面当时标注为准（见 DATA.md §3） |
-
-**本仓库刻意不包含上述数据与权重的本体**，只包含获取方式与完整性校验。
-详见 `DATA.md`。
-
----
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

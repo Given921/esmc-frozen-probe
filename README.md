@@ -280,4 +280,11 @@ Linux 是 `<venv>/bin/python`，Windows 是 `<venv>/Scripts/python.exe`。
 - ΔΔG 数据：Tsuboyama et al. 2023（MegaScale）；口径参考 ProStab
 - 本仓库代码：MIT（我们自己的代码）；**引用的数据与权重各自遵循其原许可**
 
+★ 逐条列出的第三方材料许可（数据集 / 模型权重 / 署名要求 / 哪些不能再分发）见
+**[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)**。
+
+> 为什么不在 `LICENSE` 里写这些：GitHub 靠匹配标准文本自动识别许可，
+> 在标准 MIT 文本前后插内容会让它识别失败（实测显示 `NOASSERTION`）。所以 `LICENSE`
+> 保持纯标准文本，第三方说明单独成文。
+
 如果这份代码帮到了你，请优先引用上面**数据与模型的原始文献** —— 它们才是结论的来源。
